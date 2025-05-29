@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TastyBites - Fast Food Heaven</title>
+    <meta name="description" content="Order your favorite fast food online. Quick delivery, amazing taste!">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Include sections directly -->
+    <div id="header"></div>
+    <main>
+        <div id="hero"></div>
+        <div id="menu"></div>
+        <div id="about"></div>
+        <div id="contact"></div>
+    </main>
+    <div id="footer"></div>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <h2>Your Cart</h2>
+            <div class="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </div>
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cartTotal">₹0</span>
+            </div>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+    <script>
+        // Load all sections
+        document.addEventListener('DOMContentLoaded', function () {
+            const sections = ['header', 'hero', 'menu', 'about', 'contact', 'footer'];
+
+            sections.forEach(section => {
+                fetch(`sections/${section}.html`)
+                    .then(response => response.text())
+                    .then(html => {
+                        document.getElementById(section).innerHTML = html;
+                    })
+                    .catch(error => console.error(`Error loading ${section}:`, error));
+            });
+        });
+    </script>
+</body>
+
+</html>
