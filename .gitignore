@@ -1,0 +1,121 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?p
+.cache
+.temp
+.tmp
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Linux
+.directory
+
+# Optional: Uncomment this if you're using VS Code
+# .vscode/*
+# !.vscode/extensions.json
+
+# Optional: Uncomment this if you're using IntelliJ IDEA
+# .idea
+
+# Optional: Uncomment this if you're using Sublime Text
+# *.sublime-project
+# *.sublime-workspace
+
+# Optional: Uncomment this if you're using Atom
+# .atom
+
+# Optional: Uncomment this if you're using Eclipse
+# .classpath
+# .project
+# .settings/
+
+# Optional: Uncomment this if you're using NetBeans
+# nbproject/
+
+# Optional: Uncomment this if you're using Visual Studio
+# *.suo
+# *.ntvs*
+# *.njsproj
+# *.sln
+# *.swp
+
+# Optional: Uncomment this if you're using Vim
+# *.swp
+# *.swo
+# *.swn
+
+# Optional: Uncomment this if you're using Emacs
+# *~
+# \#*\#
+
+# Optional: Uncomment this if you're using Git
+# .git/
+# .gitattributes
+# .gitignore
+
+# Optional: Uncomment this if you're using Mercurial
+# .hg/
+# .hgignore
+
+# Optional: Uncomment this if you're using SVN
+# .svn/
+
+# Optional: Uncomment this if you're using Docker
+# Dockerfile*
+# docker-compose*.yml
+
+# Optional: Uncomment this if you're using Kubernetes
+# *.yaml
+# *.yml
+
+# Optional: Uncomment this if you're using Terraform
+# .terraform/
+# *.tfstate
+# *.tfstate.backup
+
+# Optional: Uncomment this if you're using Ansible
+# *.retry
+
+# Optional: Uncomment this if you're using Chef
+# .chef/
+
+# Optional: Uncomment this if you're using Puppet
+# .puppet-lint.rc
+
+# Optional: Uncomment this if you're using Vagrant
+# .vagrant/
+
+# Optional: Uncomment this if you're using Packer
+# *.box
+
+# Optional: Uncomment this
