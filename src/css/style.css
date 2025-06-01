@@ -54,6 +54,7 @@
     .category-card p{color:#666;font-size:0.9rem}
     /* Food Section */
     .food-img{width:100%;border-radius:15px}
+    .img_burgur{background-img: url(); }
     .food-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem;margin-top:2rem}
     .food-card{background:white;border-radius:15px;overflow:hidden;box-shadow:0 5px 15px rgba(0,0,0,0.1);transition:all 0.3s}
     .food-card:hover{transform:translateY(-5px);box-shadow:0 15px 30px rgba(0,0,0,0.15)}
